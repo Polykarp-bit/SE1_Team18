@@ -1,5 +1,5 @@
 public interface AbhaengigkeitIF {
 
-    public boolean isWellSorted( String[] sequence);
+    public boolean isWellSorted(String[] sequence);
 
 }
