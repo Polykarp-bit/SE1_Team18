@@ -1,0 +1,13 @@
+Dokumentation:
+
+Iteration 1 (Grundlegende Funktion):
+  - Erkenntnisse:
+    Wir müssen noch mehr mit IntelliJ und Git auseinandersetzen; Es gab Probleme mit Commits und Push / Pull.
+
+Iteration 2 (Transitivität beachten):
+  - Erkenntnisse:
+    große Erkenntnis, dass die Aufgabenstellung widerspricht sich. Gleichzeitig auch die Überraschung der Iteration.
+
+Iteration 3 (Doppelte beachten):
+  - Erkenntnisse: 
+    Kreative Lösungen werden mit kurzem Code belohnt.
