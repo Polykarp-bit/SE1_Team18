@@ -6,6 +6,19 @@ Klasse AbhängigkeitsTest
   String[][] Abhängigkeit
 
   boolean isWellSorted(Sting[] sequence):
+    sequence in eine Menge einsetzen
+    if (Kardinalität von Menge != länge d. Arrays)
+      return false (Elemente tauchen doppelt auf)
+    
+    for i = 0 bis Ende Abhängigkeit:
+      gehe alle Elemente in sequence durch, bis der rechte der "Regel" gefunden wurde in der Liste.
+      if(Rechter gefunden):
+        ändere nichts.
+      else:
+        suche den notwendigen Vorgänger.
+        if(Vorgänger nicht gefunden)
+          return False (Regelbruch: Voraussetzung nicht erfüllt)
+  
     for i = 0 bis Ende sequence:
       aktuell = sequence[i]
       for j = 0 bis Ende Abhängigkeit:
