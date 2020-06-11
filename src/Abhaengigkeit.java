@@ -1,6 +1,4 @@
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Set;
 
 public class Abhaengigkeit implements AbhaengigkeitIF {
 
@@ -23,7 +21,6 @@ public class Abhaengigkeit implements AbhaengigkeitIF {
             return false;
         }
 
-
         for (int a = 0; a < abhaengigkeit.length; a++) {
             boolean is_in = false;
             for (int b = 0; b < sequence.length; b++) {
@@ -41,7 +38,6 @@ public class Abhaengigkeit implements AbhaengigkeitIF {
 
                 }
             }
-
         }
 
 
